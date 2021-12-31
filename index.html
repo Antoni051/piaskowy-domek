@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<!-- SELECT LANGUAGE OR MAKE SURE JS IS ENABLED  -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Piskowy Domek</title>
+        <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="scripts/localize"></script>
+    </head>
+    <body>
+
+        <h1 data-localize="greeting"> Hello! </h1>
+
+        <script>
+            $("[data-localize]").localize("langs/lang", {language: "pl"})
+        </script>
+        
+         <h1 data-localize="greeting"> Hello! </h1>
+
+        <!-- <header-component></header-component> -->
+    </body>
+</html>
