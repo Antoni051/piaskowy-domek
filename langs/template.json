@@ -1,0 +1,22 @@
+{
+    "header":{
+        "languages":{
+            "langauge": "",
+            "english": "",
+            "polish":"",
+            "german":""
+        },
+        "location": "" ,
+        "rooms": "" ,
+        "pricing": "",
+        "faq": "",
+        "about": "",
+        "contact": ""
+    },
+    "footer":{
+        "links": "",
+        "about": "",
+        "things-leba": ""
+
+    }
+}

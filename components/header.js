@@ -1,22 +1,68 @@
 class Header extends HTMLElement {
-    constructor(){
+    constructor() {
         super();
     }
-    connectedCallback(){
+    connectedCallback() {
         this.innerHTML = `
 
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container-fluid">
+                <!-- NAME OR LOGO links to home screen -->
+                <a href="../index.html" class="navbar-brand">Piaskowy Domek</a>
 
-        <h1 data-localize="greeting"> Hello! </h1>
+                <!-- Hamburger button for toggling the menu on smaller screens-->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="container">
-            abc
-        </div>
-        
-        <script>
-        $("[data-localize]").localize("langs/lang", {language: "pl"})
-        </script>
+                <!-- Sections / headings also the headings when collapsed-->
+                <div class="collapse navbar-collapse bg-dark text-light" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                               href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown"
+                                                      aria-expanded="false" data-localize="header.languages.language">
+                                Language
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" data-localize="english" href="#">English</a></li>
+                                <li><a class="dropdown-item" data-localize="polish" href="#">Polski</a></li>
+                                <li><a class="dropdown-item" data-localize="german" href="#">Deutsch</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="location.html" data-localize="header.location" class="nav-link">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="rooms.html" data-localize="header.rooms" class="nav-link">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="rooms.html" data-localize="header.pricing"class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="faq.html" data-localize="header.faq" class="nav-link">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                        <a href="about.html" data-localize="header.about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" data-bs-toggle="header.contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
         `;
-
+        // $("[data-localize]").localize("langs/lang", {language: navigator.language})
     }
+
 }
-customElements.define('header-component', Header)
+customElements.define('header-component', Header);
