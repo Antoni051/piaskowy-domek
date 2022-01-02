@@ -5,12 +5,12 @@ class Footer extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         <!-- Footer Component -->
-        <div class="footer-dark fixed-bottom">
+        <div class="footer-dark">
             <footer>
                 <div class="container-fluid">
-                    <a href="#top" class="position-absolute bottom-0 end-0 p-5">
-                        <img src="../assets/up-arrow-navicon.svg" alt="Go To Top" >
-                    </a>
+                    <!-- // <a href="#top" class="position-absolute bottom-0 end-0 p-5">
+                    //     <img src="../assets/up-arrow-navicon.svg" alt="Go To Top" >
+                    // </a> -->
                 </div>
 
                 <div class="container">

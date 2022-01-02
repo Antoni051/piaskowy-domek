@@ -5,10 +5,10 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
             <div class="container-fluid">
                 <!-- NAME OR LOGO links to home screen -->
-                <a href="../index.html" class="navbar-brand">Piaskowy Domek</a>
+                <a href="index.html" class="navbar-brand">Piaskowy Domek</a>
 
                 <!-- Hamburger button for toggling the menu on smaller screens-->
                 <button
