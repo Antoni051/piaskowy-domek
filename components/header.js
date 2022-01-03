@@ -61,7 +61,7 @@ class Header extends HTMLElement {
 
 
         `;
-        // $("[data-localize]").localize("langs/lang", {language: navigator.language})
+        $("[data-localize]").localize("langs/lang", {language: "pl"})
     }
 
 }

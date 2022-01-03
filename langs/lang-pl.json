@@ -1,3 +1,25 @@
 {
-    "greeting": "Czesc"
+    "header": {
+        "language": "",
+        "rooms": "",
+        "pricing": "",
+        "faq": "",
+        "about": "",
+        "contact": "",
+        "location": ""
+    },
+    "footer": {
+        "links": "",
+        "things-leba": "",
+        "address": "Leba ul. Derdowskiego 13 +48 515 009 119 email: piaskowydomekleba@gmail.com"
+    },
+    "mainpage": {
+        "calltoaction": " Piaskowy Domek to ponad stuletni porybacki domek po modernizacji ale z zachowanymi elementami sprzed wieku. To kameralny obiekt -max 13 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
+    "findoutmore": "Domek oferuje miejsca noclegowe: •   na parterze w 2 pokojach dwusosobowych z lazienkami , 1 pokoju 3 osobowym z lazienka  •   oraz na pietrze w jednym apartamencie max 6-cio osobowym ensuite z aneksem kuchennym.",
+    "cardlocation": "",
+        "cardrooms":"UWAGA: Nie oferujemy: •   Dostepu do wi-fi – wakacje powinny byc inne •   Nie wyposazylismy rowniez pokoi w telewizory bedac na stanowisku ze wakacje powinny byc odpoczynkiem od monitorow wszelkiego rodzaju. •   Nie posiadamy zadnych miejsc parkingowych. ale mozesz pakowac w miejscach publicznych oddalonych od domku max 500m•   Nie oferujemy wyzywienia ale najblizszy dobrze wyposazony sklep spozywczy znajduje sie 100m od obiektu a do 200m mozesz znalezc mnostwo miejsc do jedzenia. Mozesz tez zamowic jedznie z dowozem•   Nie jestesmy przygotowani do pobytu z malymi dziecmi. -nie mamy duzego ogrodu a patio jest pokryte betonowymi plytkami, nie mamy kacika zabaw dla dzieci a schody na 1 pietro sa strome i wymagaja pelnej koordynacji, ale oczywiscie decyzja nalezy do Ciebie",
+    "cardpricing": "2 osobowe -180 za pokoj 3 osobowy -240 za pokoj apartament ensuit max 6 osob 480 za unit",
+        "aboutlead":" W pokojach obowiazuje zakaz palenia ale dla wszystkich gosci jest dostepne patio gdzie zakaz nie obowiazuje. Jesli podrozujesz rowerem albo motorem na wewnetrznym patio jest miejsce do bezpiecznego przechowania roweru-standy i motoru.  Pokoje na partarze z lazienkami sa dostepne dla wozkow I skuterow inwalidzkich- nie ma progow ani schodkow.  Wyposazenie pokoji jest podstatwoew ale znajdziesz w nich wszystko czego potzrebujesz do komfortowego wypoczynku W domku mozesz znalezc duzy wybor ksiazek, gier planszowych oraz zapomnianych kart. ",
+    "about": ""
+    }
 }

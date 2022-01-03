@@ -50,7 +50,10 @@ class Footer extends HTMLElement{
         </div>
         
         `;
+        $("[data-localize]").localize("langs/lang", {language: "pl"})
     }
+
+
 }
 
 customElements.define('footer-component', Footer);
