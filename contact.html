@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container-fluid px-0">
-        <div class="row">
-            <div class="col-12">
-                <header-component></header-component>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="scripts/js/bootstrap.min.js"></script>
+        <script src="scripts/localize.js"></script>
+        <script src="components/footer.js"></script>
+        <script src="components/header.js"></script>
+        <script src="dist/bundle.js"></script>
+        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./styles/css/bootstrap.min.css">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <header-component></header-component>
+                </div>
+            </div>
+
+
+            <div class="row py-5">
+                <div class="col-12 col-md-6 mx-auto">
+
+                    <h1 class="mx-auto py-3 px-3"> Contact Us now</h1>
+                    <form class="px-3" name="contact" method="POST" data-netlify="true" >
+                        <div class="mb-3">
+                            <label for="formEmail" class="form-label" data-localize="contact.email" >Email address</label>
+                            <input type="email" class="form-control" id="emailinput" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formFullName" class="form-label" data-localize="contact.fullname" > Full Name </label>
+                            <input type="text" class="form-control" id="fullnameinput">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" id="messageinput" class="form-label">Message</label>
+                            <textarea id="formMessage" cols="30" rows="5" class="form-control"></textarea>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                        <p class="hidden">
+                        <label for="" data-localize="contact.honeypot"> Dont fill if human<input name="bot-field" /> </label>
+                        </p>
+
+                        <div data-netlify-recaptcha="true">
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-localize="contact.submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 px-0">
+                    <footer-component></footer-component>
+                </div>
             </div>
         </div>
-        <div class="row py-5">
-            <div class="col-12 col-md-4 mx-auto">
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
-        </div>
-        <div class="row">
-            <footer-component></footer-component>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
