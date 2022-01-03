@@ -29,7 +29,7 @@ class Footer extends HTMLElement{
                             <ul>
                                 <li><a data-localize="footer.things-leba" href="#">Things to do in Leba</a></li>
                                 <li><a data-localize="header.about" href="#">About</a></li>
-                                <li><a data-localize="header.contact" href="#">Contact</a></li>
+                                <li><a data-localize="header.contact" href="contact.html">Contact</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 item text">
@@ -40,7 +40,6 @@ class Footer extends HTMLElement{
                         <div class="col item social">
                             <a href="#"><img src="../assets/facebook-social.svg" alt="facebook" ></a>
                             <a href="#"><img src="../assets/map-icon-social.svg" alt="google-maps" ></a>
-                            <a href="#"><img src="../assets/booking-com-social-icon.svg" alt="booking.com"></a>
                             </svg>
                         </div>
                     </div>
@@ -48,9 +47,9 @@ class Footer extends HTMLElement{
                 </div>
             </footer>
         </div>
-        
+
         `;
-        $("[data-localize]").localize("langs/lang", {language: "pl"})
+        //        $("[data-localize]").localize("langs/lang", {language: "pl"})
     }
 
 
