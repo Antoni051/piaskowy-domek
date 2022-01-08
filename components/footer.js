@@ -34,7 +34,7 @@ class Footer extends HTMLElement{
                         </div>
                         <div class="col-md-6 item text">
                             <h3>Piaskowy Domek</h3>
-                            <p>TODO - INSERT FULL ADDRESS AND PHONE NUMBER</p>
+                            <p data-localize="footer.address" >TODO - INSERT FULL ADDRESS AND PHONE NUMBER</p>
                         </div>
 
                         <div class="col item social">
@@ -43,13 +43,14 @@ class Footer extends HTMLElement{
                             </svg>
                         </div>
                     </div>
-                    <p class="copyright">Piaskowy Domek © 2022</p>
+                    <p class="copyright" id="copyright_tag"></p>
                 </div>
             </footer>
         </div>
 
         `;
         //        $("[data-localize]").localize("langs/lang", {language: "pl"})
+        document.getElementById("copyright_tag").innerHTML = "Piaskowy Domek &copy "+ (new Date().getFullYear());
     }
 
 
