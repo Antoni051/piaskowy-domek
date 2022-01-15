@@ -1,28 +1,51 @@
 {
-    "header": {
-        "language": "",
-        "rooms": "",
-        "pricing": "",
-        "faq": "",
-        "about": "",
-        "contact": "",
-        "location": ""
-    },
-    "footer": {
-        "links": "",
-        "things-leba": "",
-        "address": " "
-    },
-    "mainpage": {
-        "calltoaction": "",
+  "header": {
+    "language": "",
+    "rooms": "",
+    "pricing": "",
+    "faq": "",
+    "about": "",
+    "contact": "",
+    "location": ""
+  },
+  "footer": {
+    "links": "",
+    "things-leba": "",
+    "address": " "
+  },
+  "mainpage": {
+    "calltoaction": "",
     "findoutmore": "",
     "cardlocation": "",
-        "cardrooms":"",
+    "cardrooms": "",
     "cardpricing": "",
-        "aboutlead":"",
+    "aboutlead": "",
     "about": ""
-    },
-    "about": {
-        "about": "",
-    }
+  },
+  "about": {
+    "about": ""
+  },
+  "location":{
+      "button1": "",
+      "button2": "",
+      "location-about":"",
+  },
+  "rooms": {
+    "room1_images": "",
+    "room2_images": "",
+    "room3_images": "",
+    "description": ""
+  },
+    "faq": {
+    "q1": "",
+    "q1-ans": "",
+    "q2": "",
+    "q2-ans": "",
+    "q3": "",
+    "q3-ans": "",
+    "q4": "",
+    "q4-ans": "",
+    "q5": "",
+    "q5-ans": ""
+  }
 }
