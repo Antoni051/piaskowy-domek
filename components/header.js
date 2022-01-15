@@ -30,7 +30,7 @@ class Header extends HTMLElement {
                                         role="button" data-bs-toggle="dropdown"
                                                       aria-expanded="false" data-localize="header.language">
                                 Language 
-                                <img class="px-2" src="../assets/globe_icon.svg" alt="">
+                                <img id="language_toggle" class="px-2" src="../assets/globe_icon.svg" alt="Country Flag Icon">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a id="language_english" class="dropdown-item" data-localize="english" href="#"><img class="pe-3" src="../assets/gb.svg" alt="">English </a></li>
@@ -140,6 +140,17 @@ class Header extends HTMLElement {
             update_language("pl");
             location.reload();
         });
+
+        // will become redundant once de and uk versions are in
+        const language_toggle_btn = document.getElementById("language_toggle")
+        let current_language = getCookie("preferred_language")
+        if (current_language === "en") {
+            language_toggle_btn.src = "../assets/gb.svg"
+        }
+        else if (current_language === "de") {
+            language_toggle_btn.src = "../assets/de.svg"
+        }
+
     }
 }
 

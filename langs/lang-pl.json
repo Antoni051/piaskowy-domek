@@ -1,6 +1,6 @@
 {
     "header": {
-        "language": "jezyk",
+        "language": "jezyk <img id=\"language_toggle\" class=\"px-2\" src=\"../assets/pl.svg\" alt=\"Country Flag Icon\">",
         "rooms": "pokoje",
         "pricing": "cennik",
         "faq": "faq",
