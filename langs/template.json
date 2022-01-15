@@ -11,7 +11,8 @@
   "footer": {
     "links": "",
     "things-leba": "",
-    "address": " "
+    "address": " ",
+    "contact": "",
   },
   "mainpage": {
     "calltoaction": "",
@@ -20,7 +21,8 @@
     "cardrooms": "",
     "cardpricing": "",
     "aboutlead": "",
-    "about": ""
+    "about": "",
+    "checkavail": "",
   },
   "about": {
     "about": ""
@@ -34,9 +36,15 @@
     "room1_images": "",
     "room2_images": "",
     "room3_images": "",
-    "description": ""
+    "description": "",
+    "season": "",
+    "offseason": "",
+    "2person": "",
+    "3person": "",
+    "apartment": "",
   },
     "faq": {
+      "description": "",
     "q1": "",
     "q1-ans": "",
     "q2": "",

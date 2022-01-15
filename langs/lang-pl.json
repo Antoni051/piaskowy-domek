@@ -1,25 +1,27 @@
 {
-    "header": {
-        "language": "jezyk <img id=\"language_toggle\" class=\"px-2\" src=\"../assets/pl.svg\" alt=\"Country Flag Icon\">",
-        "rooms": "pokoje",
-        "pricing": "cennik",
-        "faq": "faq",
-        "about": "o nas",
-        "contact": "kontact",
-        "location": "lokalizacja"
-    },
-    "footer": {
-        "links": "Linki",
-        "things-leba": "",
-        "address": "Leba ul. Derdowskiego 13 +48 515 009 119 email: piaskowydomekleba@gmail.com"
-    },
-    "mainpage": {
-        "calltoaction": " to kameralny obiekt -max 13 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
+  "header": {
+    "language": "jezyk <img id=\"language_toggle\" class=\"px-2\" src=\"../assets/pl.svg\" alt=\"Country Flag Icon\">",
+    "rooms": "pokoje",
+    "pricing": "cennik",
+    "faq": "faq",
+    "about": "o nas",
+    "contact": "kontact",
+    "location": "lokalizacja"
+  },
+  "footer": {
+    "links": "Linki",
+    "things-leba": "",
+    "address": "Leba ul. Derdowskiego 13",
+    "contact": "+48-515-009-119 Email: piaskowydomekleba@gmail.com"
+  },
+  "mainpage": {
+    "calltoaction": " to kameralny obiekt -max 13 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
     "findoutmore": "Wiecej",
     "cardlocation": "lekko na uboczu ale blisko centrum i plazy",
-        "cardrooms":"2,3 oraz 6-cio osobowy apartament",
+    "cardrooms": "2,3 oraz 6-cio osobowy apartament",
     "cardpricing": "noclegi w atrakcyjnej lokalizacji",
-        "aboutlead":"Piaskowy Domek to ponad stuletni porybacki domek po modernizacji ",
-    "about": "Oferujemy noclegi w czystych, jasnych pkojach w standarcie troche wyzszym niz turystyczny a jeszcze nie hotelowym"
-    }
+    "aboutlead": "Piaskowy Domek to ponad stuletni porybacki domek po modernizacji ",
+    "about": "Oferujemy noclegi w czystych, jasnych pkojach w standarcie troche wyzszym niz turystyczny a jeszcze nie hotelowym",
+    "checkavail": "Sprawdz Mjejsca"
+  }
 }

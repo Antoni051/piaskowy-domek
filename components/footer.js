@@ -33,8 +33,9 @@ class Footer extends HTMLElement{
                             </ul>
                         </div>
                         <div class="col-md-6 item text">
-                            <h3>Piaskowy Domek</h3>
+                            <h3>Piaskowy Domek Łeba</h3>
                             <p data-localize="footer.address" >TODO - INSERT FULL ADDRESS AND PHONE NUMBER</p>
+                            <p data-localize="footer.contact"></p>
                         </div>
 
                         <div class="col item social">
@@ -47,13 +48,8 @@ class Footer extends HTMLElement{
                 </div>
             </footer>
         </div>
-
         `;
-        //        $("[data-localize]").localize("langs/lang", {language: "pl"})
         document.getElementById("copyright_tag").innerHTML = "Piaskowy Domek &copy "+ (new Date().getFullYear());
     }
-
-
 }
-
 customElements.define('footer-component', Footer);
