@@ -29,12 +29,13 @@ class Header extends HTMLElement {
                                href="#" id="navbarDropdownMenuLink"
                                         role="button" data-bs-toggle="dropdown"
                                                       aria-expanded="false" data-localize="header.language">
-                                Language
+                                Language 
+                                <img class="px-2" src="../assets/globe_icon.svg" alt="">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a id="language_english" class="dropdown-item" data-localize="english" href="#">English</a></li>
-                                <li><a id="language_polish" class="dropdown-item" data-localize="polish" href="#">Polski</a></li>
-                                <li><a id="language_german" class="dropdown-item" data-localize="german" href="#">Deutsch</a></li>
+                                <li><a id="language_english" class="dropdown-item" data-localize="english" href="#"><img class="pe-3" src="../assets/gb.svg" alt="">English </a></li>
+                                <li><a id="language_polish" class="dropdown-item" data-localize="polish" href="#"><img class="pe-3" src="../assets/pl.svg" alt="">Polski</a></li>
+                                <li><a id="language_german" class="dropdown-item" data-localize="german" href="#"><img class="pe-3" src="../assets/de.svg" alt="">Deutsch</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -74,9 +75,9 @@ class Header extends HTMLElement {
         }
 
         function getCookie(name) {
-            var dc = document.cookie;
-            var prefix = name + "=";
-            var begin = dc.indexOf("; " + prefix);
+            let dc = document.cookie;
+            let prefix = name + "=";
+            let begin = dc.indexOf("; " + prefix);
             if (begin == -1) {
                 begin = dc.indexOf(prefix);
                 if (begin != 0) return null;
@@ -106,15 +107,18 @@ class Header extends HTMLElement {
             }
         }
 
-        if (navigator.language.includes("en")) {
-            document.cookie = setCookie("preferred_language", "en", 300)
-        } else {
-            document.cookie = setCookie(
-                "preferred_language",
-                navigator.language,
-                300
-            )
+        if (getCookie("preferred_language") === null) {
+            if (navigator.language.includes("en")) {
+                document.cookie = setCookie("preferred_language", "en", 300)
+            } else {
+                document.cookie = setCookie(
+                    "preferred_language",
+                    navigator.language,
+                    300
+                )
+            }
         }
+
 
         $("[data-localize]").localize("langs/lang", {
             language: getCookie("preferred_language"),

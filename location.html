@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Piaskowy Domek Łeba</title>
-            <link rel="stylesheet" href="styles/css/bootstrap.min.css">
-    <script src="components/footer.js"></script>
-    <script src="components/header.js" type="module" defer></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piaskowy Domek Łeba</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
     <script src="scripts/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./styles/footer.css">
-    </head>
-    <body>
+    <script src="components/header.js" type="module" defer></script>
+    <script src="dist/bundle.js"></script>
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="components/footer.js"></script>
+</head>
+<body>
 
-        <div class="container-fluid px-0 pt-0">
-            <div class="row">
-                <div class="col-12 px-0">
-                    <header-component></header-component>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-11 col-md-6 text-center py-5 mx-auto">
-                <h1 class="py-2"  data-localize="header.location" >Location</h1>
-                <p class="py-2"  data-localize="location.location-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae blanditiis dolore dolores doloribus earum esse facere, ipsum labore laborum minima minus non provident quo sit velit vero voluptates voluptatibus!</p>
-                <div class="row w-25 text-center mx-auto">
-                    <a href="" class="btn btn-primary col mx-2">Hello</a>
-                    <a href="" class="btn btn-secondary col ">ABC</a>
-                </div>
-            </div>
-        </div>
-
+<div class="container-fluid px-0 pt-0">
     <div class="row">
-            <div class="col-12 px-0">
-                <footer-component></footer-component>
-            </div>
+        <div class="col-12 px-0">
+            <header-component></header-component>
         </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-11 col-md-6 text-center py-5 mx-auto">
+        <h1 class="py-2" data-localize="header.location">Location</h1>
+        <p class="py-2" data-localize="location.location-about">Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Asperiores beatae blanditiis dolore dolores doloribus earum esse facere, ipsum labore laborum minima
+            minus non provident quo sit velit vero voluptates voluptatibus!</p>
+        <div class="row w-25 text-center mx-auto">
+            <a href="" class="btn btn-primary col mx-2">Hello</a>
+            <a href="" class="btn btn-secondary col ">ABC</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 px-0">
+        <footer-component></footer-component>
+    </div>
+</div>
 
 
-    </body>
+</body>
 </html>
