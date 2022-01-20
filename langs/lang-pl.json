@@ -23,5 +23,37 @@
     "aboutlead": "Piaskowy Domek to ponad stuletni porybacki domek po modernizacji ",
     "about": "Oferujemy noclegi w czystych, jasnych pkojach w standarcie troche wyzszym niz turystyczny a jeszcze nie hotelowym",
     "checkavail": "Sprawdz Mjejsca"
+  },
+  "about": {
+    "about": ""
+  },
+  "location": {
+    "button1": "",
+    "button2": "",
+    "location-about": ""
+  },
+  "rooms": {
+    "room1_images": "",
+    "room2_images": "",
+    "room3_images": "",
+    "description": "",
+    "season": "",
+    "offseason": "",
+    "2person": "",
+    "3person": "",
+    "apartment": ""
+  },
+  "faq": {
+    "description": "",
+    "q1": "",
+    "q1-ans": "",
+    "q2": "",
+    "q2-ans": "",
+    "q3": "",
+    "q3-ans": "",
+    "q4": "",
+    "q4-ans": "",
+    "q5": "",
+    "q5-ans": ""
   }
 }
