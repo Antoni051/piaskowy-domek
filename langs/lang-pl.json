@@ -3,7 +3,7 @@
     "language": "jezyk <img id=\"language_toggle\" class=\"px-2\" src=\"../assets/pl.svg\" alt=\"Country Flag Icon\">",
     "rooms": "pokoje",
     "pricing": "cennik",
-    "faq": "faq",
+    "faq": "czesto zadawane pytania",
     "about": "o nas",
     "contact": "kontact",
     "location": "lokalizacja"
@@ -18,42 +18,50 @@
     "calltoaction": " to kameralny obiekt -max 13 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
     "findoutmore": "Wiecej",
     "cardlocation": "lekko na uboczu ale blisko centrum i plazy",
-    "cardrooms": "2,3 oraz 6-cio osobowy apartament",
+    "cardrooms": "2-osobowe pokoje oraz 6-cio osobowy apartament",
     "cardpricing": "noclegi w atrakcyjnej lokalizacji",
     "aboutlead": "Piaskowy Domek to ponad stuletni porybacki domek po modernizacji ",
     "about": "Oferujemy noclegi w czystych, jasnych pkojach w standarcie troche wyzszym niz turystyczny a jeszcze nie hotelowym",
     "checkavail": "Sprawdz Mjejsca"
   },
   "about": {
-    "about": ""
+    "about": "about.about"
   },
   "location": {
-    "button1": "",
-    "button2": "",
-    "location-about": ""
+    "button1": "location button 1",
+    "button2": "location.button2",
+    "location-about": "Piaskowy Domek ma doskonal lokalizacje - lekko na uboczu a jednoczesnie blisko plazy i centrum"
   },
   "rooms": {
-    "room1_images": "",
-    "room2_images": "",
-    "room3_images": "",
-    "description": "",
-    "season": "",
-    "offseason": "",
-    "2person": "",
-    "3person": "",
-    "apartment": ""
+    "room1_images": "Apartament en suite -1-wsze pietro",
+    "room2_images": "Pokoj dwusosbowy -twin numer 1",
+    "room3_images": "Pokoj dwusosobowy numer 2",
+    "room4_images": "pokoj dwuosobowy numer 3",
+    "room5_images": "pokoj dwuosobowy numer 4",
+    "description": "sezon wysoki -9.07 do 15 08",
+    "season": "sezon wysoki",
+    "offseason": "sezon niski",
+    "2person": "pokoj dwuosobowynumer 2",
+    "3person": "pokoj dwuosobowy -twin",
+    "apartment": "Apartament - ensuite",
+    "season2p":"300zl doba za pokoj",
+    "season3p":"300zl doba za pokoj",
+    "seasonapt":"720zl doba  za apartament",
+    "offseason2p":"160zl za dobe za pokoj",
+    "offseason3p":"160zl za pokoj za dobe",
+    "offseasonapt":"480zl za dobe za apartament"
   },
   "faq": {
-    "description": "",
-    "q1": "",
-    "q1-ans": "",
-    "q2": "",
-    "q2-ans": "",
-    "q3": "",
-    "q3-ans": "",
-    "q4": "",
-    "q4-ans": "",
-    "q5": "",
-    "q5-ans": ""
+    "description": "w przygotowaniu",
+    "q1": "faq.q1ytftyf",
+    "q1-ans": "faq.q1a",
+    "q2": "faq.q2",
+    "q2-ans": "faq.q2a",
+    "q3": "faq.q3",
+    "q3-ans": "faq.q3a",
+    "q4": "faq.q4",
+    "q4-ans": "faq.q4a",
+    "q5": "faq.q5",
+    "q5-ans": "faq.q5a"
   }
 }
