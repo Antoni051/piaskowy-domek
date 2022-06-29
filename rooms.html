@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,339 +12,300 @@
     <link rel="stylesheet" href="../styles/footer.css">
     <script src="components/footer.js"></script>
 </head>
+
 <body>
-<div class="container-fluid px-0 pt-0">
+    <div class="container-fluid px-0 pt-0">
+        <div class="row">
+            <div class="col-12 px-0">
+                <header-component></header-component>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 mx-auto py-5 text-center">
+                <h1 class="pb-3" data-localize="header.rooms">Rooms</h1>
+                <p data-localize="rooms.description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Asperiores beatae blanditiis dolore dolores doloribus earum esse facere, ipsum labore laborum
+                    minima
+                    minus non provident quo sit velit vero voluptates voluptatibus!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 mx-auto  text-center">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col" data-localize="rooms.season">sezon</th>
+                            <th scope="col" data-localize="rooms.offseason">off sezon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" data-localize="rooms.2person">2 person</th>
+                            <td data-localize="rooms.season2p">x</td>
+                            <td data-localize="rooms.offseason2p">x</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-localize="rooms.3person">3 person</th>
+                            <td data-localize="rooms.season3p">x</td>
+                            <td data-localize="rooms.offseason3p">x</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-localize="rooms.apartment">apartament-ensuite</th>
+                            <td data-localize="rooms.seasonapt">x</td>
+                            <td data-localize="rooms.offseasonapt">x</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="accordion accordion-flush col-md-6 col-12 mx-auto" id="accordionFlushExample">
+
+
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                            data-localize="rooms.room1_images">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse show" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <!--data-localize="faq.q1-ans"-->
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <img src="./assets/images/1apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Room 1 of apartment" />
+
+                                    <img src="./assets/images/2apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Room 2 of apartment" />
+
+                                    <img src="./assets/images/7apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Room 3 of apartment" />
+
+                                        <img src="./assets/images/apt2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Kitchen area of apartment" />
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="./assets/images/3apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Room 4 of apartment" />
+
+                                    <img src="./assets/images/4apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Room 4 of apartment" />
+
+                                    <img src="./assets/images/apt1.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Kitchen area of apartment" />
+
+                                    <img src="./assets/images/apt3.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Apartment Bathroom" />
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="./assets/images/5apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Waves at Sea" />
+
+                                    <img src="./assets/images/6apartment.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Yosemite National Park" />
+
+                                    <img src="./assets/images/PXL_20220612_131110658~2.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                    alt="Floor plan of apartment" />
+
+                                    <img src="./assets/images/apt4.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                                        alt="Apartment Toilet" />
+                                </div>
+                            </div>
+                            <!-- Gallery -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                            data-localize="rooms.room2_images">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <img src="/assets/images/1.1.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                    <img src="/assets/images/1.3.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1 Picture 2" />
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/1.4.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1 Picture 3" />
+
+                                        <img src="/assets/images/dom.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="External House View" />
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/PXL_20220612_131101881~2.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1 Floorplan Position" />
+
+                                        <img src="/assets/images/1.5.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1 Bathroom" />
+                                </div>
+                            </div>
+                            <!-- Gallery -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree" data-localize="rooms.room3_images">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <img src="/assets/images/2.1.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                    <img src="/assets/images/2.2.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/2.3.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                    <img src="/assets/images/2.4.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/2.5.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                    <img src="/assets/images/PXL_20220612_131101881~2.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                </div>
+                            </div>
+                            <!-- Gallery -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour" data-localize="rooms.room4_images">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <img src="/assets/images/3.1.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 3"/>
+
+                                    <img src="/assets/images/3.2.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 3 Bathroom"/>
+
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/3.4.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 3 Picture 3"/>
+
+                                    <img src="/assets/images/3.6.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 3 Picture 4"/>
+
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/3.8.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 3 Picture 2"/>
+
+                                    <img src="/assets/images/PXL_20220612_131101881~2.jpg"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="Room 3 location floorplan"/>
+
+                                </div>
+                                
+                            </div>
+                            <!-- Gallery -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive" data-localize="rooms.room5_images">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <img src="/assets/images/4.1.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 4"/>
+
+                                    <img src="/assets/images/4.1 (2).jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 4 bathroom"/>
+
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/4.2.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 4 picture 2"/>
+
+                                    <img src="/assets/images/PXL_20220612_131101881~2.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0">
+                                    <img src="/assets/images/front-house.jpg"
+                                        class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                    <img src="/assets/images/PICT6662.JPG"
+                                    class="w-100 shadow-1-strong rounded mb-4" alt="Room 1"/>
+
+                                </div>
+                            </div>
+                            <!-- Gallery -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="row">
-        <div class="col-12 px-0">
-            <header-component></header-component>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 col-md-6 mx-auto py-5 text-center">
-            <h1 class="pb-3" data-localize="header.rooms">Rooms</h1>
-            <p data-localize="rooms.description" >Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Asperiores beatae blanditiis dolore dolores doloribus earum esse facere, ipsum labore laborum
-                minima
-                minus non provident quo sit velit vero voluptates voluptatibus!</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-12 col-md-6 mx-auto  text-center">
-            <table class="table">
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col" data-localize="rooms.season">sezon</th>
-      <th scope="col" data-localize="rooms.offseason">off sezon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row" data-localize="rooms.2person">2 person</th>
-      <td data-localize="rooms.season2p">x</td>
-      <td data-localize="rooms.offseason2p">x</td>
-    </tr>
-    <tr>
-      <th scope="row" data-localize="rooms.3person">3 person</th>
-      <td data-localize="rooms.season3p">x</td>
-      <td data-localize="rooms.offseason3p">x</td>
-    </tr>
-    <tr>
-      <th scope="row" data-localize="rooms.apartment">apartament-ensuite</th>
-      <td data-localize="rooms.seasonapt">x</td>
-      <td data-localize="rooms.offseasonapt">x</td>
-    </tr>
-  </tbody>
-</table>
-        </div>
-    </div>
-
-    <div class="row py-5">
-        <div class="accordion accordion-flush col-md-6 col-12 mx-auto" id="accordionFlushExample">
-
-
-        <div class="accordion-item ">
-            <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                        aria-controls="flush-collapseOne" data-localize="rooms.room1_images">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse show" aria-labelledby="flush-headingOne"
-                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"><!--data-localize="faq.q1-ans"-->
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
-                            />
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
-                            />
-                        </div>
-                    </div>
-                    <!-- Gallery -->
-                </div>
-            </div>
-        </div>
-
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                        aria-controls="flush-collapseTwo" data-localize="rooms.room2_images">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
-                            />
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
-                            />
-                        </div>
-                    </div>
-                    <!-- Gallery -->
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                        aria-controls="flush-collapseThree" data-localize="rooms.room3_images">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
-                            />
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
-                            />
-                        </div>
-                    </div>
-                    <!-- Gallery -->
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour" aria-expanded="false"
-                        aria-controls="flush-collapseFour" data-localize="rooms.room4_images">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
-                            />
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
-                            />
-                        </div>
-                    </div>
-                    <!-- Gallery -->
-                </div>
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive" aria-expanded="false"
-                        aria-controls="flush-collapseFive" data-localize="rooms.room5_images">
-                    Accordion Item #1
-                </button>
-            </h2>
-            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Wintry Mountain Landscape"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Mountains in the Clouds"/>
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Boat on Calm Water"/>
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Waves at Sea"
-                            />
-
-                            <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4"
-                                    alt="Yosemite National Park"
-                            />
-                        </div>
-                    </div>
-                    <!-- Gallery -->
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </div>
-    </div>
-
-<div class="row">
         <div class="col-12 px-0 pt-3">
             <footer-component></footer-component>
         </div>
@@ -351,4 +313,5 @@
 
 
 </body>
+
 </html>
