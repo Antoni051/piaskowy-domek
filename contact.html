@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piaskowy Domek Łeba</title>
@@ -11,53 +12,58 @@
     <link rel="stylesheet" href="../styles/footer.css">
     <script src="components/footer.js"></script>
 </head>
-    <body>
-        <div class="container-fluid px-0">
-            <div class="row">
-                <div class="col-12 px-0">
-                    <header-component></header-component>
-                </div>
-            </div>
 
-
-            <div class="row py-5">
-                <div class="col-12 col-md-6 mx-auto">
-
-                    <h1 class="mx-auto py-2 px-3 text-center" data-localize="contact.calltoaction" >  Contact Us now</h1>
-                    <p  class="mx-auto py-2 px-3 text-center" data-localize="contact.description" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ratione quaerat, maxime soluta adipisci distinctio a labore natus nesciunt veniam repellat quas voluptates omnis, animi accusantium reiciendis deleniti minima assumenda.</p>
-
-
-                    <form class="px-3" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-                        <div class="form-group py-2">
-                            <label for="name" data-localize="contact.name" >Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="form-group py-2">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group py-2">
-                            <label for="subject" data-localize="contact.subject" >Subject:</label>
-                            <input type="text" class="form-control" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group py-2">
-                            <label for="message" data-localize="contact.message" >Message:</label>
-                            <textarea class="form-control" rows="10" id="message" name="message" required></textarea>
-                        </div>
-                        <div class="form-group py-2">
-                            <div data-netlify-recaptcha="true"></div>
-                        </div>
-                        <button type="submit" data-localize="contact.submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-12 px-0">
-                    <footer-component></footer-component>
-                </div>
+<body>
+    <div class="container-fluid px-0">
+        <div class="row">
+            <div class="col-12 px-0">
+                <header-component></header-component>
             </div>
         </div>
-    </body>
+
+
+        <div class="row py-5">
+            <div class="col-12 col-md-6 mx-auto">
+
+                <h1 class="mx-auto py-2 px-3 text-center" data-localize="contact.calltoaction"> Contact Us now</h1>
+                <p class="mx-auto py-2 px-3 text-center" data-localize="contact.description">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Illo ratione quaerat, maxime soluta adipisci distinctio a labore natus
+                    nesciunt veniam repellat quas voluptates omnis, animi accusantium reiciendis deleniti minima
+                    assumenda.</p>
+
+
+                <form class="px-3" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                    <div class="form-group py-2">
+                        <label for="name" data-localize="contact.name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="subject" data-localize="contact.subject">Subject:</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group py-2">
+                        <label for="message" data-localize="contact.message">Message:</label>
+                        <textarea class="form-control" rows="10" id="message" name="message" required></textarea>
+                    </div>
+                    <div class="form-group py-2">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                    <button type="submit" data-localize="contact.submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 px-0">
+                <footer-component></footer-component>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
