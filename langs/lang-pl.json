@@ -25,7 +25,7 @@
     "checkavail": "Sprawdz Mjejsca"
   },
   "about": {
-    "about": "Mam na imię Jakub Moskwa. Odziedziczyłem Piaskowy Domek po mojej babci, która mieszkała tam przez ponad 40 lat. Niestety nie zdazylem jej poznac ani sie z nia zaprzyjaznic. Z powodu klopotow ze zdrowiem ani ja ani moja mama -na zdjeciu, nie jestesmy tam w stanie mieszkac. Ale mozemy go oddac do dyspozycji gosci. Caly dochod z Piaskowego Domku zostanie przeznaczony na utrzymanie domu, koszty leczeń, rehabilitację, specjalistyczne sprzęty medyczne i spełnianie moich marzeń. Jestem pewien, że właśnie tego chciałaby moja babcia. Jakub Moskwa "
+    "about": "Mam na imię Jakub Moskwa. Odziedziczyłem Piaskowy Domek po mojej babci, która mieszkała tam przez ponad 40 lat. Niestety nie zdazylem jej poznac ani sie z nia zaprzyjaznic.<br><br> Z powodu klopotow ze zdrowiem ani ja ani moja mama -na zdjeciu, nie jestesmy tam w stanie mieszkac. Ale mozemy go oddac do dyspozycji gosci. Caly dochod z Piaskowego Domku zostanie przeznaczony na utrzymanie domu, koszty leczeń, rehabilitację, specjalistyczne sprzęty medyczne i spełnianie moich marzeń. Jestem pewien, że właśnie tego chciałaby moja babcia. <br><br> Jakub Moskwa "
   },
   "location": {
     "button1": "location button 1",
@@ -38,7 +38,7 @@
     "room3_images": "Pokoj dwusosobowy-podwojne lozko- numer 2 -wejscie od ulicy",
     "room4_images": "pokoj dwuosobowy -podwojne lozko- numer 3",
     "room5_images": "pokoj dwuosobowy numer- podwojne lozko 4",
-    "description": "Do zarezerwowania jest 6-osobowy apartament z jasnymi sypialniami, wygodnymi łóżkami z pełnym zestawem pościeli, łazienką z wanną, osobną toaletą i dobrze wyposażoną kuchnią. Możliwe jest również zarezerwowanie jednego z 4 pokoi na parterze zaopatrzonych we własne lodówki i prywatne łazienki z prysznicami oraz dostępem do wspólnego aneksu kuchennego. W kazdym pokoju znajduje sie otwarta szafa ktora pozwoli upozadkowac garderobe, grzejnik w razie chlodnych nocy o co nie trudno w naszym klimacie. Z powodu zmiennej pogody na wyposazeniu pokoju sa rowniez wiatrochrony -parawany oraz torba na plaze z niewielkim kocykiem oraz parasol na wypadek deszczow. W zadnym z pokoi nie ma telewizora - jestesmy na stanowisku ze wakacje powinny byc wolne od TV oraz nie oferujemy dostepu do internetu - z tego samego powodu. Nie zapewniamy wyżywienia – do pierwszego, dobrze zaopatrzonego sklepu, czynnego cała dobę jest tylko 100m a w pobliżu znajduje się kilkadziesiąt miejsc, w których można doskonale zjeść – szukaj informacji na tablicach w obiekcie. Mamy nadzieje ze doskonala lokalizacja zapewni wartosciowy pobyt i skloni do powrotu",
+    "description": "Do zarezerwowania jest 6-osobowy apartament z jasnymi sypialniami, wygodnymi łóżkami z pełnym zestawem pościeli, łazienką z wanną, osobną toaletą i dobrze wyposażoną kuchnią. Możliwe jest również zarezerwowanie jednego z 4 pokoi na parterze zaopatrzonych we własne lodówki i prywatne łazienki z prysznicami oraz dostępem do wspólnego aneksu kuchennego.<br><br> W kazdym pokoju znajduje sie otwarta szafa ktora pozwoli upozadkowac garderobe oraz grzejnik w razie chlodnych nocy o co nie trudno w naszym klimacie. Z powodu zmiennej pogody na wyposazeniu pokoju sa rowniez wiatrochrony -parawany oraz torba na plaze z niewielkim kocykiem oraz parasol na wypadek deszczow. <br><br>W zadnym z pokoi nie ma telewizora - stoimy na stanowisku ze wakacje powinny byc wolne od TV oraz nie oferujemy dostepu do internetu - z tego samego powodu. Nie zapewniamy wyżywienia <br> do pierwszego, dobrze zaopatrzonego sklepu, czynnego cała dobę jest tylko 100m a w pobliżu znajduje się kilkadziesiąt miejsc, w których można doskonale zjeść <br> szukaj informacji na tablicach w obiekcie. <br><br>Mamy nadzieje ze doskonala lokalizacja zapewni wartosciowy pobyt i skloni do powrotu",
     "season": "sezon wysoki 9.07 do 15 08",
     "offseason": "sezon niski 16.08 do 8.07",
     "2person": "pokoj dwuosobowy double-parter",
@@ -53,22 +53,24 @@
   },
   "faq": {
     "description": "w przygotowaniu",
-    "q1": "faq.q1ytftyf",
-    "q1-ans": "faq.q1a",
-    "q2": "faq.q2",
-    "q2-ans": "faq.q2a",
-    "q3": "faq.q3",
-    "q3-ans": "faq.q3a",
-    "q4": "faq.q4",
-    "q4-ans": "faq.q4a",
+    "q1": "Jak wygląda proces rezerwacji?",
+    "q1-ans": "Można wynająć pokój lub apartament drogą telefoniczną na numer 515 009 119 lub poprzez zarezerwowanie na stronie internetowej piaskowydomek.com.",
+    "q2": "Jaki jest sposób płatności?",
+    "q2-ans": "Jeżeli rezerwujesz termin do 30 dni w przód od razu płacisz całość bazowej ceny pobytu bez zaliczki. Jeśli natomiast rezerwujesz termin powyżej 30 dni w przód płacisz zaliczkę w wysokości 50% ceny pobytu, a następnie wpłacasz resztę tak, aby całość ceny pobytu była zaksięgowana do 7 dni przed terminem wizyty. Po zaksiegowaniu otrzymasz potwierdzenieemailowe a tuz przed przyjazdem kody do skrytki na klucze. Opłata następuje na dane: Odbiorcopyright a - Jakub Moskwa Numer konta - 02116022020000000511874521 Tytuł - Twoje imię i nazwisko, numer zarezerwowanych pokoi i data od do",
+    "q3": "Czy jest miejsce na zaparkowanie samochodu?",
+    "q3-ans": "Niestety nie zapewniamy prywatnych miejsc parkingowych, można za to skorzystać z publicznego parkingu. Strefa Płatnego Parkowania obowiązuje od 1 czerwca do 15 września. Opłaty pobierane będą od poniedziałku do piątku z wyłączeniem dni świątecznych w godzinach od 8:00 do 20:00. Opłaty można będzie dokonać korzystając z 52 parkomatów rozmieszczonych w Strefie Płatnego Parkowania. Parkometry przyjmują tylko monety o nominałach 10gr, 20gr, 50gr, 1zł, 2zł, 5zł i nie wydają reszty. Dodatkowo większość z nich umożliwia płatność kartą dotykowo. - Wydany bilet należy umieścić za przednią szybą samochodu. Ceny to:pierwsze pół godz.- 2,10 zł, drugie pół godz.- 2,10 zł, druga pełna godz. - 5 zł, trzecia pełna godz.- 6 zł, czwarta i każda kolejna pełna godz. - 4,20 zł, opłata zryczałtowana za 1 dobę postoju w wysokości 30,00 zł za dobę, a za wielokrotność doby - wielokrotność stawki",
+    "q4": "Czy sa pokoje dla palacych?",
+    "q4-ans": "Niestety nie oferujemy mozliwosci palenia papierosow w pokojach. Jest mozliwosc palenia na patio. ",
     "q5": "faq.q5",
     "q5-ans": "faq.q5a"
   },
   "contact":{
     "description": "w razie watpliwosci, pytan albo checi rezerwacji uzyj formularza",
-    "calltoaction":"Skontaktuj sie z nami"
-  },
-  "pricing":{
-    "description":"desc"
+    "calltoaction":"Skontaktuj sie z nami",
+    "name": "imie",
+    "message": "wiadomosc",
+    "subject": "temat",
+    "submit": "wyslij"
+
   }
 }

@@ -65,10 +65,11 @@
     "q5-ans": "faq.q5a"
   },
   "contact":{
-    "description": "In case of questions, doubts or reservation use form below:",
-    "calltoaction":"Contact us"
-  },
-  "pricing":{
-    "description":"desc"
+    "description": "w razie watpliwosci, pytan albo checi rezerwacji uzyj formularza",
+    "calltoaction":"Get in touch with us",
+    "name": "name",
+    "message": "message",
+    "subject": "subject",
+    "submit": "send"
   }
 }
