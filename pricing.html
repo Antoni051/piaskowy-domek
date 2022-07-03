@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piaskowy Domek Łeba</title>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <script src="scripts/js/bootstrap.min.js"></script>
+    <script src="components/header.js" type="module" defer></script>
+    <script src="dist/bundle.js"></script>
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="components/footer.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid px-0 pt-0">
+        <div class="row">
+            <div class="col-12 px-0">
+                <header-component></header-component>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="text-center pb-5 pt-5">
+                <h1 data-localize="header.pricing" >title</h1>
+            </div>
+            <div class="text-center pb-5">
+                <p data-localize="pricing.description" >balhblah</p>
+            </div>
+        </div>
+
+        <div class="row pb-5">
+            <div class="col-12 col-md-6 mx-auto  text-center">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col" data-localize="rooms.season">sezon</th>
+                            <th scope="col" data-localize="rooms.offseason">off sezon</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" data-localize="rooms.2person">2 person</th>
+                            <td data-localize="rooms.season2p">x</td>
+                            <td data-localize="rooms.offseason2p">x</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-localize="rooms.3person">3 person</th>
+                            <td data-localize="rooms.season3p">x</td>
+                            <td data-localize="rooms.offseason3p">x</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-localize="rooms.apartment">apartament-ensuite</th>
+                            <td data-localize="rooms.seasonapt">x</td>
+                            <td data-localize="rooms.offseasonapt">x</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 px-0">
+            <footer-component></footer-component>
+        </div>
+    </div>
+
+</body>

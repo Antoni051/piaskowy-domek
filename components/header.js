@@ -45,7 +45,7 @@ class Header extends HTMLElement {
                             <a href="rooms.html" data-localize="header.rooms" class="nav-link">Rooms</a>
                         </li>
                         <li class="nav-item">
-                            <a href="rooms.html" data-localize="header.pricing"class="nav-link">Pricing</a>
+                            <a href="pricing.html" data-localize="header.pricing"class="nav-link">Pricing</a>
                         </li>
                         <li class="nav-item">
                             <a href="faq.html" data-localize="header.faq" class="nav-link">FAQs</a>

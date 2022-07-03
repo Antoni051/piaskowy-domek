@@ -1,0 +1,74 @@
+{
+  "header": {
+    "language": "jezyk <img id=\"language_toggle\" class=\"px-2\" src=\"../assets/gb.svg\" alt=\"Country Flag Icon\">",
+    "rooms": "Rooms",
+    "pricing": "prices",
+    "faq": "faq",
+    "about": "about us",
+    "contact": "contact",
+    "location": "location"
+  },
+  "footer": {
+    "links": "Linki",
+    "things-leba": "",
+    "address": "Leba ul. Derdowskiego 13",
+    "contact": "+48-515-009-119 Email: piaskowydomekleba@gmail.com"
+  },
+  "mainpage": {
+    "calltoaction": " to kameralny obiekt -max 14 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
+    "findoutmore": "Wiecej",
+    "cardlocation": "lekko na uboczu ale blisko centrum i plazy",
+    "cardrooms": "2-osobowe pokoje oraz 6-cio osobowy apartament",
+    "cardpricing": "noclegi w atrakcyjnej lokalizacji",
+    "aboutlead": "Piaskowy Domek to ponad stuletni porybacki domek po modernizacji ",
+    "about": "Oferujemy noclegi w czystych, jasnych pkojach w standarcie troche wyzszym niz turystyczny a jeszcze nie hotelowym",
+    "checkavail": "Sprawdz Mjejsca"
+  },
+  "about": {
+    "about": "Mam na imię Jakub Moskwa. Odziedziczyłem Piaskowy Domek po mojej babci, która mieszkała tam przez ponad 40 lat. Niestety nie zdazylem jej poznac ani sie z nia zaprzyjaznic. Z powodu klopotow ze zdrowiem ani ja ani moja mama -na zdjeciu, nie jestesmy tam w stanie mieszkac. Ale mozemy go oddac do dyspozycji gosci. Caly dochod z Piaskowego Domku zostanie przeznaczony na utrzymanie domu, koszty leczeń, rehabilitację, specjalistyczne sprzęty medyczne i spełnianie moich marzeń. Jestem pewien, że właśnie tego chciałaby moja babcia. Jakub Moskwa "
+  },
+  "location": {
+    "button1": "location button 1",
+    "button2": "location.button2",
+    "location-about": "Piaskowy Domek is located close to center and close to the beach -check location, close enough to enjoy night life and far enough to have a good sleep overnight"
+  },
+  "rooms": {
+    "room1_images": "Apartment en suite -1st floor",
+    "room2_images": "Twin room -no 1 - ground floor",
+    "room3_images": "Double room -no 2 -ground floor-entrance from street",
+    "room4_images": "Double room -no 3 -ground floor",
+    "room5_images": "Double room -no 4 -ground floor",
+    "description": "Do zarezerwowania jest 6-osobowy apartament z jasnymi sypialniami, wygodnymi łóżkami z pełnym zestawem pościeli, łazienką z wanną, osobną toaletą i dobrze wyposażoną kuchnią. Możliwe jest również zarezerwowanie jednego z 4 pokoi na parterze zaopatrzonych we własne lodówki i prywatne łazienki z prysznicami oraz dostępem do wspólnego aneksu kuchennego. W kazdym pokoju znajduje sie otwarta szafa ktora pozwoli upozadkowac garderobe, grzejnik w razie chlodnych nocy o co nie trudno w naszym klimacie. Z powodu zmiennej pogody na wyposazeniu pokoju sa rowniez wiatrochrony -parawany oraz torba na plaze z niewielkim kocykiem oraz parasol na wypadek deszczow. W zadnym z pokoi nie ma telewizora - jestesmy na stanowisku ze wakacje powinny byc wolne od TV oraz nie oferujemy dostepu do internetu - z tego samego powodu. Nie zapewniamy wyżywienia – do pierwszego, dobrze zaopatrzonego sklepu, czynnego cała dobę jest tylko 100m a w pobliżu znajduje się kilkadziesiąt miejsc, w których można doskonale zjeść – szukaj informacji na tablicach w obiekcie. Mamy nadzieje ze doskonala lokalizacja zapewni wartosciowy pobyt i skloni do powrotu",
+    "season": "high season 9.07 to 15 08",
+    "offseason": "low season 16.08 to 8.07",
+    "2person": "Double room -ground floor",
+    "3person": "Twin room -ground floor",
+    "apartment": "Apartament - ensuite -1st floor- max 6 people - two double bedrooms and one twin bedroom",
+    "season2p":"300zl day per room",
+    "season3p":"300zl day per room",
+    "seasonapt":"720zl day per apartment",
+    "offseason2p":"160zl day per room",
+    "offseason3p":"160zl day per room",
+    "offseasonapt":"480zl day per apartment"
+  },
+  "faq": {
+    "description": "w przygotowaniu",
+    "q1": "faq.q1ytftyf",
+    "q1-ans": "faq.q1a",
+    "q2": "faq.q2",
+    "q2-ans": "faq.q2a",
+    "q3": "faq.q3",
+    "q3-ans": "faq.q3a",
+    "q4": "faq.q4",
+    "q4-ans": "faq.q4a",
+    "q5": "faq.q5",
+    "q5-ans": "faq.q5a"
+  },
+  "contact":{
+    "description": "In case of questions, doubts or reservation use form below:",
+    "calltoaction":"Contact us"
+  },
+  "pricing":{
+    "description":"desc"
+  }
+}

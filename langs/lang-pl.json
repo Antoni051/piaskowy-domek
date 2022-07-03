@@ -15,7 +15,7 @@
     "contact": "+48-515-009-119 Email: piaskowydomekleba@gmail.com"
   },
   "mainpage": {
-    "calltoaction": " to kameralny obiekt -max 13 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
+    "calltoaction": " to kameralny obiekt -max 14 osob, położony w samym centrum Łeby… Doskonała lokalizacja jako baza wypadowa w poblizu portu, Skweru Rybaka i plazy. Od gwaru promenady oddalony o jakieś 100 m co pozwoli Ci spac spokojnie…",
     "findoutmore": "Wiecej",
     "cardlocation": "lekko na uboczu ale blisko centrum i plazy",
     "cardrooms": "2-osobowe pokoje oraz 6-cio osobowy apartament",
@@ -25,30 +25,30 @@
     "checkavail": "Sprawdz Mjejsca"
   },
   "about": {
-    "about": "about.about"
+    "about": "Mam na imię Jakub Moskwa. Odziedziczyłem Piaskowy Domek po mojej babci, która mieszkała tam przez ponad 40 lat. Niestety nie zdazylem jej poznac ani sie z nia zaprzyjaznic. Z powodu klopotow ze zdrowiem ani ja ani moja mama -na zdjeciu, nie jestesmy tam w stanie mieszkac. Ale mozemy go oddac do dyspozycji gosci. Caly dochod z Piaskowego Domku zostanie przeznaczony na utrzymanie domu, koszty leczeń, rehabilitację, specjalistyczne sprzęty medyczne i spełnianie moich marzeń. Jestem pewien, że właśnie tego chciałaby moja babcia. Jakub Moskwa "
   },
   "location": {
     "button1": "location button 1",
     "button2": "location.button2",
-    "location-about": "Piaskowy Domek ma doskonal lokalizacje - lekko na uboczu a jednoczesnie blisko plazy i centrum"
+    "location-about": "Piaskowy Domek ma doskonala lokalizacje - lekko na uboczu a jednoczesnie blisko plazy i centrum"
   },
   "rooms": {
     "room1_images": "Apartament en suite -1-wsze pietro",
-    "room2_images": "Pokoj dwusosbowy -twin numer 1",
-    "room3_images": "Pokoj dwusosobowy numer 2",
-    "room4_images": "pokoj dwuosobowy numer 3",
-    "room5_images": "pokoj dwuosobowy numer 4",
-    "description": "sezon wysoki -9.07 do 15 08",
-    "season": "sezon wysoki",
-    "offseason": "sezon niski",
-    "2person": "pokoj dwuosobowynumer 2",
-    "3person": "pokoj dwuosobowy -twin",
-    "apartment": "Apartament - ensuite",
+    "room2_images": "Pokoj dwusosbowy -twin (osobne pojedyncze lozka)- numer 1",
+    "room3_images": "Pokoj dwusosobowy-podwojne lozko- numer 2 -wejscie od ulicy",
+    "room4_images": "pokoj dwuosobowy -podwojne lozko- numer 3",
+    "room5_images": "pokoj dwuosobowy numer- podwojne lozko 4",
+    "description": "Do zarezerwowania jest 6-osobowy apartament z jasnymi sypialniami, wygodnymi łóżkami z pełnym zestawem pościeli, łazienką z wanną, osobną toaletą i dobrze wyposażoną kuchnią. Możliwe jest również zarezerwowanie jednego z 4 pokoi na parterze zaopatrzonych we własne lodówki i prywatne łazienki z prysznicami oraz dostępem do wspólnego aneksu kuchennego. W kazdym pokoju znajduje sie otwarta szafa ktora pozwoli upozadkowac garderobe, grzejnik w razie chlodnych nocy o co nie trudno w naszym klimacie. Z powodu zmiennej pogody na wyposazeniu pokoju sa rowniez wiatrochrony -parawany oraz torba na plaze z niewielkim kocykiem oraz parasol na wypadek deszczow. W zadnym z pokoi nie ma telewizora - jestesmy na stanowisku ze wakacje powinny byc wolne od TV oraz nie oferujemy dostepu do internetu - z tego samego powodu. Nie zapewniamy wyżywienia – do pierwszego, dobrze zaopatrzonego sklepu, czynnego cała dobę jest tylko 100m a w pobliżu znajduje się kilkadziesiąt miejsc, w których można doskonale zjeść – szukaj informacji na tablicach w obiekcie. Mamy nadzieje ze doskonala lokalizacja zapewni wartosciowy pobyt i skloni do powrotu",
+    "season": "sezon wysoki 9.07 do 15 08",
+    "offseason": "sezon niski 16.08 do 8.07",
+    "2person": "pokoj dwuosobowy double-parter",
+    "3person": "pokoj dwuosobowy -twin-parter",
+    "apartment": "Apartament - ensuite -1-wsze pietro- max 6os -dwie sypialnie double plus jedna twin",
     "season2p":"300zl doba za pokoj",
     "season3p":"300zl doba za pokoj",
-    "seasonapt":"720zl doba  za apartament",
+    "seasonapt":"720zl doba za apartament",
     "offseason2p":"160zl za dobe za pokoj",
-    "offseason3p":"160zl za pokoj za dobe",
+    "offseason3p":"160zl za pokoj za pokoj",
     "offseasonapt":"480zl za dobe za apartament"
   },
   "faq": {
@@ -63,5 +63,12 @@
     "q4-ans": "faq.q4a",
     "q5": "faq.q5",
     "q5-ans": "faq.q5a"
+  },
+  "contact":{
+    "description": "w razie watpliwosci, pytan albo checi rezerwacji uzyj formularza",
+    "calltoaction":"Skontaktuj sie z nami"
+  },
+  "pricing":{
+    "description":"desc"
   }
 }
