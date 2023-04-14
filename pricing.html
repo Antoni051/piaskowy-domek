@@ -11,6 +11,7 @@
     <script src="dist/bundle.js"></script>
     <link rel="stylesheet" href="../styles/footer.css">
     <script src="components/footer.js"></script>
+    <link rel="stylesheet" href="../styles/tables.css">
 </head>
 
 <body>
@@ -23,39 +24,88 @@
 
         <div class="row">
             <div class="text-center pb-5 pt-5">
-                <h1 data-localize="header.pricing" >title</h1>
+                <h1 data-localize="header.pricing">Pricing</h1>
             </div>
         </div>
-
-        <div class="row pb-5">
-            <div class="col-12 col-md-6 mx-auto  text-center">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col" data-localize="rooms.season">sezon</th>
-                            <th scope="col" data-localize="rooms.offseason">off sezon</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" data-localize="rooms.2person">2 person</th>
-                            <td data-localize="rooms.season2p">x</td>
-                            <td data-localize="rooms.offseason2p">x</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" data-localize="rooms.3person">3 person</th>
-                            <td data-localize="rooms.season3p">x</td>
-                            <td data-localize="rooms.offseason3p">x</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" data-localize="rooms.apartment">apartament-ensuite</th>
-                            <td data-localize="rooms.seasonapt">x</td>
-                            <td data-localize="rooms.offseasonapt">x</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="row pb-5 w-50 mx-auto">
+            <h2 class="p-2" data-localize="pricing.roomsLabel" >Rooms</h2>
+            <table>
+                <tr>
+                    <th data-localize="pricing.dateRangeLabel" class="text-center">Date Range</th>
+                    <th data-localize="pricing.costLabel" class="text-center" >Price</th>
+                </tr>
+                <tr>
+                    <td>01.04 - 5.04</td>
+                    <td>130 zł</td>
+                </tr>
+                <tr>
+                    <td>6.04 - 10.04</td>
+                    <td>200 zł</td>
+                </tr>
+                <tr>
+                    <td>11.04 - 27.04</td>
+                    <td>180 zł</td>
+                </tr>
+                <tr>
+                    <td>28.04 - 30.04</td>
+                    <td>240 zł</td>
+                </tr>
+                <tr>
+                    <td>01.05 - 31.05</td>
+                    <td>180 zł</td>
+                </tr>
+                <tr>
+                    <td>01.06 - 6.06</td>
+                    <td>180 zł</td>
+                </tr>
+                <tr>
+                    <td>7.06 - 10.06</td>
+                    <td>200 zł</td>
+                </tr>
+                <tr>
+                    <td>11.06 - 23.06</td>
+                    <td>180 zł</td>
+                </tr>
+                <tr>
+                    <td>24.06 - 13.07</td>
+                    <td>240 zł</td>
+                </tr>
+                <tr>
+                    <td>14.07 - 14.08</td>
+                    <td>340 zł</td>
+                </tr>
+                <tr>
+                    <td>15.08 - 30.08</td>
+                    <td>240 zł</td>
+                </tr>
+                <tr>
+                    <td>31.08 - 31.10</td>
+                    <td>180 zł</td>
+                </tr>
+            </table>
+            <h2 class="pt-6 p-2" data-localize="pricing.apartmentLabel" >Rooms</h2>
+            <table>
+                <tr>
+                    <th data-localize="pricing.dateRangeLabel" class="text-center">Date Range</th>
+                    <th data-localize="pricing.costLabel" class="text-center" >Price</th>
+                </tr>
+                <tr>
+                    <td>1.04 - 6.04</td>
+                    <td>390 zł</td>
+                </tr>
+                <tr>
+                    <td>7.04 - 14.07</td>
+                    <td>480 zł</td>
+                </tr>
+                <tr>
+                    <td>15.07 - 14.08</td>
+                    <td>780 zł</td>
+                </tr>
+                <tr>
+                    <td>15.08 - 31.10</td>
+                    <td>480 zł</td>
+                </tr>
+            </table>
         </div>
     </div>
     <div class="row">
